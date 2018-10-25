@@ -18,10 +18,12 @@
 #include <httpserver.h>
 #include <httprpc.h>
 #include <utilstrencodings.h>
+#include <iostream>
 
 #include <boost/thread.hpp>
 
 #include <stdio.h>
+using namespace std;
 
 /* Introduction text for doxygen: */
 
@@ -178,6 +180,7 @@ bool AppInit(int argc, char* argv[])
 
 int main(int argc, char* argv[])
 {
+    cout<<"test"<<endl;
     SetupEnvironment();
 
     // Connect bitcoind signal handlers
