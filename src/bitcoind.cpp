@@ -180,7 +180,7 @@ bool AppInit(int argc, char* argv[])
 
 int main(int argc, char* argv[])
 {
-    cout<<"test"<<endl;
+    cout<<"tes2t"<<endl;
     SetupEnvironment();
 
     // Connect bitcoind signal handlers
